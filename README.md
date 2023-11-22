@@ -8,11 +8,9 @@ Implement a Micro-service with Spring Boot with the 03 layers:
     ==> GraphQL API.
     ==> RPC API.
 
-We will develop a web service with GraphQL called bank-service for a given bank which offers the following services:
+We will take the same model that we implemented in workshop https://github.com/abbouformations/bank-service-graphql.git  in which we used GraphQL. As a reminder, the web service offers the following services:
 - Consult the list of bank customers.
 - Consult a customer by their identity number.
-- Modify a customer by their identity number.
-- Delete a customer by their identity number.
 - Consult the list of bank accounts.
 - Consult a bank account by its RIB.
 - Make transfers from one account to another account.
