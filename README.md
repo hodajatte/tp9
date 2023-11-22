@@ -3,10 +3,10 @@ Implement a Micro-service with Spring Boot with the 03 layers:
 - Data Access Layer: with Spring Data JPA.
 - Business Layer.
 - Web Layer with the following APIs:
-    ==> REST API
-    ==> SOAP API.
-    ==> GraphQL API.
-    ==> RPC API.
+    1- REST API.
+    2- SOAP API.
+    3- GraphQL API.
+    4- RPC API.
 
 We will take the same model that we implemented in workshop https://github.com/abbouformations/bank-service-graphql.git  in which we used GraphQL. As a reminder, the web service offers the following services:
 - Consult the list of bank customers.
