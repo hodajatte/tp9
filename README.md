@@ -1,7 +1,12 @@
-# bank-service-graphql
-- Understand the GraphQL standard.
-- Understand the syntax of the GraphQL schema.
-- Handle exceptions with GraphQL.
+# bank-service-multi-connector
+Implement a Micro-service with Spring Boot with the 03 layers:
+- Data Access Layer: with Spring Data JPA.
+- Business Layer.
+- Web Layer with the following APIs:
+    ==> REST API
+    ==> SOAP API.
+    ==> GraphQL API.
+    ==> RPC API.
 
 We will develop a web service with GraphQL called bank-service for a given bank which offers the following services:
 - Consult the list of bank customers.
