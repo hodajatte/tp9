@@ -1,4 +1,4 @@
-package ma.formations.multiconnector.common;
+package ma.formations.multiconnector.config;
 
 import lombok.AllArgsConstructor;
 import ma.formations.multiconnector.presentation.soap.BankSoapController;
