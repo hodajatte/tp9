@@ -4,7 +4,6 @@ import jakarta.jws.WebMethod;
 import jakarta.jws.WebParam;
 import jakarta.jws.WebResult;
 import jakarta.jws.WebService;
-import jakarta.jws.soap.SOAPBinding;
 import lombok.AllArgsConstructor;
 import ma.formations.multiconnector.common.CommonTools;
 import ma.formations.multiconnector.dtos.bankaccount.AddBankAccountRequest;
@@ -24,14 +23,15 @@ import java.util.List;
 
 @Component
 @WebService(serviceName = "BankWS")
-@SOAPBinding
 @AllArgsConstructor
+
 public class BankSoapController {
 
     private final IBankAccountService bankAccountService;
     private final ICustomerService customerService;
     private ITransactionService transactionService;
     private CommonTools commonTools;
+
 
     @WebMethod
 
